@@ -31,13 +31,13 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between border-t-2 border-lime-700 bg-white p-4 dark:bg-[#171717]">
+    <header className="flex items-center justify-between border-t-2 border-b border-t-lime-700 bg-white p-4 dark:bg-[#121212]">
       <Logo />
 
       <div className="flex items-center gap-4">
         <Link
           href="/newsletter"
-          className="text-muted-foreground text-sm"
+          className="text-sm"
         >
           Newsletter
         </Link>

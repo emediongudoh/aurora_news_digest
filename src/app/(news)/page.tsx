@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { HeroCTA } from "@/components/hero-cta";
 
 export default function Home() {
   return (
     <div>
-      <Button>Click me</Button>
+      <HeroCTA />
     </div>
   );
 }
